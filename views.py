@@ -1,7 +1,6 @@
 from datatime import datetime
 from django.shortcuts import render
 
-
 # data_em_texto = data_atual.strftime('%d/%m/%Y')
 # print(data_em_texto) 
 
@@ -15,14 +14,14 @@ def feriado():
     else:
         return 'Não é nenhum dos feriados'
 
-def feriado_natal(request):
+def natal(request):
     mensagem = {
-        'mensagem': feriado_natal() == 'É natal'
+        'mensagem': feriado() == 'É natal'
     }
     return render(request, 'index.html', mensagem)
 
-def feriado_tiradentes(request):
+def tiradentes(request):
     mensagem = {
-        'mensagem': feriado_tiradentes() == 'É tiradentes'
+        'mensagem': feriado() == 'É tiradentes'
     }
     return render(request, 'index.html', mensagem)
