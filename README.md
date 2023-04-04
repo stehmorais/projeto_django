@@ -12,3 +12,4 @@ datetime: https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-pytho
 
 download python e django: https://www.alura.com.br/artigos/django-instalacao-configuracao-e-escrevendo-seu-primeiro-app#:~:text=Para%20instalar%20o%20Python%20na,ent%C3%A3o%20clique%20em%20Install%20Now%20.
 
+pip: https://www.youtube.com/watch?v=MvUMAvmviaE
