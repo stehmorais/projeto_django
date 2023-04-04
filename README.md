@@ -1,2 +1,2 @@
 # projeto_django
-Primeiro projeto em pyhon usando django como framework
+Primeiro projeto em python usando django como framework
